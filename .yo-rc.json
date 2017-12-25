@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "damedasti",
+    "baseName": "microservice",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.13.0",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "e50636a5b14a09874bf38ae7fd5126831ff86e4f",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
